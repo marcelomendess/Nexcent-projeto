@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+:root{
+    /* Configuração de cores */
+    --color-neutral-black: #263238;
+    --color-neutral-d_grey: #4D4D4D;
+    --color-neutral-grey: #717171;
+    --color-neutral-l_grey: #89939E;
+    --color-neutral-grey-blue: #ABBED1;
+    --color-neutral-silver: #F5F7FA;
+    --color-neutral-white: #FFFFFF;
+
+    --color-primary: #4CAF4F;
+
+    --color-secundary: #263238;
+
+    --color-info: #2194f3;
+
+    --color-shade1: #43A046;
+    --color-shade3: #388E3B;
+    --color-shade3: #237D31;
+    --color-shade4: #1B5E1F;
+    --color-shade5: #103E13;
+
+    --color-tint1: #66BB69 ;
+    --color-tint2: #81C784;
+    --color-tint3: #A5D6A7;
+    --color-tint4: #C8E6C9;
+    --color-tint5: #E8F5E9;
+
+
+    --color-action-warning: #FBC02D;
+    --color-action-error: #E53835;
+    --color-action-success: #2E7D31;
+
+    /*  Configurações de fontes */
+
+    --font-family: "Inter";
+
+    --font-headline-1-size: 64px;
+    --font-headline-1-weight: 600;
+
+    --font-headline-2-size: 36px;
+    --font-headline-2-weight: 600;
+
+    --font-headline-3-size: 28px;
+    --font-headline-3-weight: 700;
+
+    --font-headline-4-size: 20px;
+    --font-headline-4-weight: 600;
+
+    --font-body-1-size: 18px;
+    --font-body-1-weight-regular: 400;
+    --font-body-1-weight-medium: 500;
+
+    --font-body-2-size: 16px;
+    --font-body-2-weight-regular: 400;
+    --font-body-2-weight-medium: 500;
+
+    --font-body-3-size: 14px;
+    --font-body-3-weight-regular: 400;
+    --font-body-3-weight-medium: 500;
+
+    --font-body-4-size: 12px;
+    --font-body-4-weight-regular: 400;
+    --font-body-4-weight-medium: 500;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.active-menu {
+    font-weight: 500 !important;
+}
+
+p {
+    color: var(--color-neutral-grey);
+}
+
+.btn-primary {
+    align-self: flex-start;
+    padding: 14px 32px;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    margin-top: 16px;
+
+}
+
+.btn-primary a{
+    color: var(--color-neutral-white);
+}
+
+h2 {
+    color: var(--color-neutral-d_grey);
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+}
+
+.btn-navigation a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: var(--font-headline-4-weight);
+}
+
+ul {
+    list-style: none;
+}
